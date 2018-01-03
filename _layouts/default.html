@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    {% if page.title and page.url != "/" %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title | default: "GOV.UK" }}</title>
+    {% endif %}
+
+    <link rel="stylesheet" media="screen" href="{{ "/assets/main.css" | relative_url }}"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+
+    <div id="skiplink-container">
+      <div>
+        <a href="#content" class="skiplink">Skip to main content</a>
+      </div>
+    </div>
+
+    {% include header.html %}
+
+    <div id="global-header-bar"></div>
+
+    {{ content }}
+
+    {% include footer.html %}
+
+  </body>
+</html>

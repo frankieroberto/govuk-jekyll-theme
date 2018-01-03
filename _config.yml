@@ -1,0 +1,8 @@
+title: Your awesome title
+author: Your name
+email: your-email@domain.com
+description: Write an awesome description for your new site here.
+
+# Build settings
+markdown: kramdown
+theme: govuk-jekyll-theme
