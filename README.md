@@ -33,7 +33,7 @@ This means that there’s a basic layout, including the GOV.UK global header and
 If you’d like to propose a change to some of the underlying styles or assets, it’s best to do that 'upstream' on the original source. Confusingly, there are three separate Git repositories whose contents are combined to make this theme, so you’ll need to figure out which one contains the code you’d like to suggest a change for. These are:
 
 * [govuk_elements](https://github.com/alphagov/govuk_elements)
-* [govuk_template(https://github.com/alphagov/govuk_template)
+* [govuk_template](https://github.com/alphagov/govuk_template)
 * [govuk_frontend_toolkit](https://github.com/alphagov/govuk_frontend_toolkit)
 
 If you have any suggestions about how the packaging-these-up-as-Jekyll-theme process could be improved, though, they would be very welcome. You can do that by adding an [issue](https://github.com/frankieroberto/govuk-jekyll-theme/issues) or submitting a [pull request](https://github.com/frankieroberto/govuk-jekyll-theme/pulls) to the GitHub repository for this theme.
@@ -42,7 +42,7 @@ If you have any suggestions about how the packaging-these-up-as-Jekyll-theme pro
 
 To set up your environment to develop this theme, you’ll need both [npm](https://www.npmjs.com) and [Bundler](http://bundler.io).
 
-Then run `npm install` to install the source requirements for this theme specified in [package.json](package.json). After this the [package.sh](package.sh) script will be run to manually copy the relevant `.scss` files into the [`_sass`](_sass) folder, and the images into [`assets`](assets).
+Then run `npm install` to install the source requirements for this theme specified in [`package.json`](package.json). After this the [`package.sh`](package.sh) script will be run to manually copy the relevant `.scss` files into the [`_sass`](_sass) folder, and the images into [`assets`](assets).
 
 The theme can then be packaged up as a Rubygem locally by running:
 
