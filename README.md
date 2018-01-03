@@ -22,6 +22,15 @@ And then install the theme using:
 
     $ bundle
 
+Note: to [use this theme with GitHub Pages](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/) you will also need to add the following to the `_config.yml` file:
+
+```yaml
+remote_theme: frankieroberto/govuk-jekyll-theme
+```
+
+(This is because GitHub installs the theme directly from a GitHub repository rather than from RubyGems.)
+
+
 ## Usage
 
 The theme contains all of the CSS styles and assets from [GOV.UK Elements](https://govuk-elements.herokuapp.com) and from the [GOV.UK Frontend Toolkit](https://github.com/alphagov/govuk_frontend_toolkit).
