@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    govuk-jekyll (0.1.0)
+    govuk-jekyll-theme (0.1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -13,7 +13,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12)
-  govuk-jekyll!
+  govuk-jekyll-theme!
   rake (~> 10.0)
 
 BUNDLED WITH
