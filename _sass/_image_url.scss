@@ -1,6 +1,6 @@
 @function image-url($file) {
   $url: '';
   $path: '/';
-  $url: url($baseurl + $file);
+  $url: url($baseurl + '/assets/' + $file);
   @return $url;
 }
